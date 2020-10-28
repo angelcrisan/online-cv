@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import { HomePage } from './pages/HomePage/HomePage';
-import { KnowledgePage } from './pages/KnowledgePage/KnowledgePage';
+import { KnowledgePage } from "./pages/KnowledgePage/KnowledgePage";
 import { AboutMePage } from './pages/AboutMePage/AboutMePage';
 import { Header } from './header/header';
 
@@ -21,7 +21,7 @@ export class App extends React.Component {
           <Route path="/" exact>
             <HomePage/>
           </Route>
-          <Route path="/KnowledgePage">
+          <Route path="/Knowledge-Page">
             <KnowledgePage/>
           </Route>
           <Route path="/AboutMePage">
