@@ -24,7 +24,7 @@ export class App extends React.Component {
           <Route path="/Knowledge-Page">
             <KnowledgePage/>
           </Route>
-          <Route path="/AboutMePage">
+          <Route path="/AboutMe-Page">
             <AboutMePage/>
           </Route>
         </Switch>

@@ -1,0 +1,29 @@
+.aboutme-section{
+    width: 100%;
+}
+
+.aboutme-section h2{
+    text-align: center;
+    text-shadow: 2px 2px royalblue;
+    color: wheat;
+}
+
+.gaming-logo{
+    width: 160px;
+    height: 130px;
+}
+.basketball-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.fan-logo{
+    width:150px;
+    height: 100px;
+}
+
+.tv-logo{
+    width: 160px;
+    height: 140px;
+
+}
