@@ -27,3 +27,21 @@
     height: 140px;
 
 }
+
+.about-details {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin: 20px;
+    padding: 5px;
+    border: lightcyan 1px solid;
+    text-align: justify;
+}
+
+.hobbies-section h2 {
+    display: block;
+}
+.hobbies-section {
+    display: flex;
+    position: relative;
+}
