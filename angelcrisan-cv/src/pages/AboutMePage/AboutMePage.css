@@ -1,30 +1,53 @@
 .aboutme-section{
-    width: 100%;
+    width:100%;
+    height: 100%;
+}
+.aboutme-section p {
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-.aboutme-section h2{
-    text-align: center;
+.hobbies-title{
+    margin-left: 15px;
     text-shadow: 2px 2px royalblue;
     color: wheat;
 }
 
+.hobbies-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.hobbies-list {
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+    font-size: 15px;
+}
+
+.contact-details{
+    text-align: right;
+    margin-right:20px;
+}
+
 .gaming-logo{
-    width: 160px;
-    height: 130px;
+    width: 60px;
+    height: 30px;
 }
 .basketball-logo{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
 
 .fan-logo{
-    width:150px;
-    height: 100px;
+    width:50px;
+    height: 30px;
 }
 
 .tv-logo{
-    width: 160px;
-    height: 140px;
+    width: 60px;
+    height: 40px;
 
 }
 
@@ -34,8 +57,7 @@
     font-weight: bolder;
     margin: 20px;
     padding: 5px;
-    border: lightcyan 1px solid;
-    text-align: justify;
+    text-align: center;
 }
 
 .hobbies-section h2 {
