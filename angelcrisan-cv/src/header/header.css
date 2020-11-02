@@ -1,0 +1,25 @@
+.header-container{
+   margin: 5px;
+   border: 1px solid lightgrey;
+   display: flex;
+   background-color: lightgray;
+}
+
+.header-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-menu a {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+}
+
+.header-menu p {
+    display: flex;
+}
