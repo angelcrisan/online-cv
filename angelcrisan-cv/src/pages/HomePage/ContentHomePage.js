@@ -11,9 +11,13 @@ export class ContentHomePage extends React.Component {
         return(
             <div className="homepage-container">
                 <h1>TUDOR-ANGEL CRISAN</h1>
-                <h3>24 YEARS OLD</h3>
-                <h3>ASPIRING TO BECOME A FRONT-END DEVELOPER</h3>
                 <img src={ProfilePic} alt="profile" className="profile-picture"></img>
+                <br></br>
+                <ul className="list">
+                    <li> 24 YEARS OLD</li>
+                    <li> ROMANIA</li>
+                    <li> ASPIRING TO BECOME A FRONT-END WEB DEVELOPER</li>
+                </ul>
 
                 <div className="socialMedia">
                 <a href="https://www.facebook.com/angeel.crisan" target="_blank" rel= "noopener noreferrer">
