@@ -9,6 +9,8 @@ import { HomePage } from './pages/HomePage/HomePage';
 import { KnowledgePage } from "./pages/KnowledgePage/KnowledgePage";
 import { AboutMePage } from './pages/AboutMePage/AboutMePage';
 import { Header } from './header/header';
+import { EducationPage } from './pages/EducationPage/EducationPage';
+import { WorkPage } from './pages/WorkExperience/WorkExperience';
 
 
 export class App extends React.Component {
@@ -23,6 +25,12 @@ export class App extends React.Component {
           </Route>
           <Route path="/Knowledge-Page">
             <KnowledgePage/>
+          </Route>
+          <Route path="/Education-Page">
+            <EducationPage/>
+          </Route>
+          <Route path="/Work-Page">
+            <WorkPage/>
           </Route>
           <Route path="/AboutMe-Page">
             <AboutMePage/>
