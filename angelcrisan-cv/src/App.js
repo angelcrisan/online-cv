@@ -11,6 +11,7 @@ import { AboutMePage } from './pages/AboutMePage/AboutMePage';
 import { Header } from './header/header';
 import { EducationPage } from './pages/EducationPage/EducationPage';
 import { WorkPage } from './pages/WorkExperience/WorkExperience';
+import ContactMe, { ContactPage } from './pages/ContactPage/ContactPage';
 
 
 export class App extends React.Component {
@@ -34,6 +35,9 @@ export class App extends React.Component {
           </Route>
           <Route path="/AboutMe-Page">
             <AboutMePage/>
+          </Route>
+          <Route path="/Contact-Page">
+            <ContactMe/>
           </Route>
         </Switch>
       </Router>

@@ -24,6 +24,9 @@ export class Header extends React.Component {
                     <Link to="/aboutme-page">
                         <p>About Me</p>
                     </Link>
+                    <Link to="/contact-page">
+                        <p>Contact</p>
+                    </Link>
                 </div>
             </div>
         )
