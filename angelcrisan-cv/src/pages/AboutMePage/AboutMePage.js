@@ -25,11 +25,11 @@ export class AboutMePage extends React.Component {
             </ul>
             </div>
 
-            <div className="contact-details">
+            {/* <div className="contact-details">
                 <h2>Contact</h2>
                 <h4>Mail: angelcrisan@live.com</h4>
                 <h4>Phone: (+4)0754564943</h4>
-            </div>
+            </div> */}
             </div>
             
         )

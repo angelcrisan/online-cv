@@ -12,11 +12,20 @@ export class Header extends React.Component {
                     <Link to="/">
                         <p>Homepage</p>
                     </Link>
+                    <Link to="/education-page">
+                        <p>Education</p>
+                    </Link>
                     <Link to="/knowledge-page">
-                        <p>Knowledge</p>
+                        <p>Skills and projects</p>
+                    </Link>
+                    <Link to="/work-page">
+                        <p>Work Experience</p>
                     </Link>
                     <Link to="/aboutme-page">
                         <p>About Me</p>
+                    </Link>
+                    <Link to="/contact-page">
+                        <p>Contact</p>
                     </Link>
                 </div>
             </div>
