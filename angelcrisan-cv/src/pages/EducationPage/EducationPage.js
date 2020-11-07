@@ -8,7 +8,7 @@ export class EducationPage extends React.Component {
                 <h1>Education</h1>
 
 
-                <p> JUNE 2014 Graduate "Virgil Madgearu" High School in Cluj-Napoca</p>
+                <p> JUNE 2015 Graduate "Virgil Madgearu" High School in Cluj-Napoca</p>
 
                 <p>AUGUST 2017 to SEPTEMBER 2017 Followed Romanian Basketball Federation Course for Referees</p>
 
