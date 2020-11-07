@@ -1,15 +1,41 @@
 .profile-picture {
-    width: 300px;
-    height: 300px;
+    width:400px;
+    height:450px;
     border-radius: 15px;
-    display: block;
-    margin: 30px;
+    display: flex;
+    margin: 35px;
+    
+}
+.homepage-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
 }
 
 .homepage-container h1 {
-    font-family: cursive;
     font-weight: bold;
-    margin-left: 20px ;
+    margin: 15px ;
+    padding: 5px;
+    text-align: center;
+}
+
+.homepage-container h3 {
+    margin: 10px;
+    padding: 3px;
+    text-align: center;
+}
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
 }
 
 .socialProfiles {
@@ -17,11 +43,15 @@
     height: 30px;
     margin: 20px;
     display: flex;
-    float: right;
-}
-
-.list{
-    margin: 5px;
-    font-weight: bold;
+    flex-direction: row;
+    justify-content: space-evenly;
     
 }
+
+.social-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+

@@ -1,0 +1,16 @@
+.education-section {
+    height:100%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.education-section h1{
+    margin-top: 20px;
+}
+
+.education-section p{
+    margin: 20px;
+    padding: 10px;
+}
