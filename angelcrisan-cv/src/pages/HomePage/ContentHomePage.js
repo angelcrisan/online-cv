@@ -13,14 +13,15 @@ export class ContentHomePage extends React.Component {
         <img src={ProfilePic} alt="profile" className="profile-picture"></img>
         <br></br>
 
-        <div className="contact-details">
-          <h1>TUDOR-ANGEL CRISAN</h1>
-          <h3>Phone: (+4)0754564943</h3>
-          <h3>Email: angelcrisan@live.com</h3>
-          <h3>Cluj-Napoca,Romania</h3>
-        </div>
-
         <div className="socialMedia">
+          <div className="contact-details">
+            <h1>TUDOR-ANGEL CRISAN</h1>
+            <h3>24 years old</h3>
+            <h3>Phone: (+4)0754564943</h3>
+            <h3>Email: angelcrisan@live.com</h3>
+            <h3>Cluj-Napoca,Romania</h3>
+          </div>
+          <div className="social-container">
           <div className="facebook-link">
             <a
               href="https://www.facebook.com/angeel.crisan"
@@ -35,30 +36,31 @@ export class ContentHomePage extends React.Component {
             </a>
           </div>
           <div>
-          <a
-            href="https://www.instagram.com/angelcrisan_/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={InstagramLogo}
-              alt="instagram"
-              className="socialProfiles"
-            ></img>
-          </a>
+            <a
+              href="https://www.instagram.com/angelcrisan_/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={InstagramLogo}
+                alt="instagram"
+                className="socialProfiles"
+              ></img>
+            </a>
           </div>
           <div>
-          <a
-            href="https://www.linkedin.com/in/angel-crisan-14296b1b9/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={LinkedinLogo}
-              alt="linkedin"
-              className="socialProfiles"
-            ></img>
-          </a>
+            <a
+              href="https://www.linkedin.com/in/angel-crisan-14296b1b9/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={LinkedinLogo}
+                alt="linkedin"
+                className="socialProfiles"
+              ></img>
+            </a>
+            </div>
           </div>
         </div>
       </div>

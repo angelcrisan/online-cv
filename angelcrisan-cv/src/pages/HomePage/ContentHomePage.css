@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     
     
 }
@@ -26,13 +27,31 @@
     padding: 3px;
     text-align: center;
 }
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+}
+
 .socialProfiles {
     width: 30px;
     height: 30px;
     margin: 20px;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: right;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.social-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 
